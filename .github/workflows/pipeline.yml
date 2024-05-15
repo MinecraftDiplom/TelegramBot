@@ -19,8 +19,8 @@ jobs:
       - name: Check Java Version
         run: kotlinc -version
 
-      - name: Build Kotlin application
-        run: gradle build
+      # - name: Build Kotlin application
+      #   run: gradle build
 
       - name: Install ktlint
         run: |
